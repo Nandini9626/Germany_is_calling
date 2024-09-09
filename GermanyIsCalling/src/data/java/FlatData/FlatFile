@@ -1,0 +1,13 @@
+URL = https://app.germanyiscalling.com/common/login/
+XUN = //input[@id="username"]
+XPW = //input[@id="password"]
+XLN = //button[text()='Log In']
+XNN = //span[text()='Nandini']
+XLG = //i[@class="bi bi-box-arrow-right"]
+XET = //div[@class="alert alert-danger"]
+
+
+VUN = nandinigande9626@gmail.com
+VPW = Gande@1234
+IUN = nandinigande.com
+IPW = NandiniGande
