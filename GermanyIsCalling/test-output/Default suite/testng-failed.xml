@@ -5,9 +5,8 @@
     <classes>
       <class name="ExecutingPack.ExecutingClass">
         <methods>
-          <include name="Invalid2"/>
+          <include name="Invalid4"/>
           <include name="beforeMethod"/>
-          <include name="Invalid3"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- ExecutingPack.ExecutingClass -->

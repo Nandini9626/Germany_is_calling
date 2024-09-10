@@ -1,5 +1,6 @@
 package ExecutingPack;
 
+
 import java.io.IOException;
 
 import org.testng.annotations.Test;
@@ -23,9 +24,14 @@ public class ExecutingClass extends BaseClass {
 	  ScriptingClass S= new ScriptingClass();
 	  S.InValidLogin2();
   }
-  @Test (priority=3)
+  @Test (priority=4)
   public void Invalid3() throws InterruptedException, IOException {
 	  ScriptingClass S= new ScriptingClass();
 	  S.InValidLogin3();
+  }
+  @Test (priority=5)
+  public void Invalid4() throws InterruptedException, IOException {
+	  ScriptingClass S= new ScriptingClass();
+	  S.InValidLogin4();
   }
 }

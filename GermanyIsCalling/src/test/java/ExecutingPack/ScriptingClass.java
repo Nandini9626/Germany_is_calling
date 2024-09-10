@@ -64,4 +64,17 @@ public class ScriptingClass extends ReusedClass {
 		SS("Error message 3");
 
 	}
+	void InValidLogin4() throws InterruptedException, IOException {
+		driver.get(obj.getProperty("URL"));
+		XP("XUN").sendKeys("  ");
+		XP("XPW").sendKeys("  ");
+		SS("Invalid credentials 4");
+		((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView()",XP("XLN"));
+		((JavascriptExecutor)driver).executeScript("arguments[0].click();",XP("XLN"));
+		String text= XP("XET").getText();
+		System.out.println("While login with empty username and empty password:");
+		System.out.println(text);
+		SS("Error message 4");
+
+	}
 }
