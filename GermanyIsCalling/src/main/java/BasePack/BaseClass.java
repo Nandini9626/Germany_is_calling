@@ -15,6 +15,8 @@ public class BaseClass {
 	
   public static WebDriver driver;
   public static Properties obj;
+  
+  
     
   @BeforeMethod
   public void beforeMethod() throws IOException {
